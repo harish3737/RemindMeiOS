@@ -14,6 +14,9 @@
 		85E92DC3293D487B009223AD /* RemindMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85E92DC1293D487B009223AD /* RemindMe.xcdatamodeld */; };
 		85E92DC5293D487C009223AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E92DC4293D487C009223AD /* Assets.xcassets */; };
 		85E92DC8293D487C009223AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E92DC6293D487C009223AD /* LaunchScreen.storyboard */; };
+		85E92DD2293D4949009223AD /* CoreData Manager in Resources */ = {isa = PBXBuildFile; fileRef = 85E92DCF293D4949009223AD /* CoreData Manager */; };
+		85E92DD3293D4949009223AD /* Common Files in Resources */ = {isa = PBXBuildFile; fileRef = 85E92DD0293D4949009223AD /* Common Files */; };
+		85E92DD4293D4949009223AD /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 85E92DD1293D4949009223AD /* Fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		85E92DC4293D487C009223AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85E92DC7293D487C009223AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85E92DC9293D487C009223AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85E92DCF293D4949009223AD /* CoreData Manager */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "CoreData Manager"; sourceTree = "<group>"; };
+		85E92DD0293D4949009223AD /* Common Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Common Files"; sourceTree = "<group>"; };
+		85E92DD1293D4949009223AD /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 		85E92DB7293D487B009223AD /* RemindMe */ = {
 			isa = PBXGroup;
 			children = (
+				85E92DD0293D4949009223AD /* Common Files */,
+				85E92DCF293D4949009223AD /* CoreData Manager */,
+				85E92DD1293D4949009223AD /* Fonts */,
 				85E92DB8293D487B009223AD /* AppDelegate.swift */,
 				85E92DBA293D487B009223AD /* SceneDelegate.swift */,
 				85E92DBC293D487B009223AD /* ViewController.swift */,
@@ -130,6 +139,9 @@
 			files = (
 				85E92DC8293D487C009223AD /* LaunchScreen.storyboard in Resources */,
 				85E92DC5293D487C009223AD /* Assets.xcassets in Resources */,
+				85E92DD3293D4949009223AD /* Common Files in Resources */,
+				85E92DD4293D4949009223AD /* Fonts in Resources */,
+				85E92DD2293D4949009223AD /* CoreData Manager in Resources */,
 				85E92DC0293D487B009223AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
